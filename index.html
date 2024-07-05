@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Migrate illegally</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="bookingform.html">add debt</a>
+            <a href="about.html">About us</a>
+        </nav>
+    </header>
+    <div class="jumbotron">
+        <div>
+            <h1>Migrate illegally</h1>
+            <h3>
+                "Migrating illegally – it leaves you speechless, then turns you
+                into a criminal " – international law
+            </h3>
+            <p>Website created by : Fartypoopy</p>
+        </div>
+        <div>
+            <img src="images/travel-logo.png" alt="Logo">
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="package-container"> <!-- 1st package content -->
+            <img src="images/sakura.jpeg" alt="Sakura">
+            <h3>Sakura Tours | 7 Days</h3>
+            <p>migrate to Japan during sakura season</p>
+            <h4 id="harga1">USD 3,500 </h4>
+            <button id="btn1" class="left">add debt</button>
+
+        </div>
+        <div class="package-container">
+            <!--2nd package content -->
+            <img src="images/anime.jpg" alt="Anime">
+            <h3>Anime world tour | 5 Days</h3>
+            <p>Deeper into your deppresion</p>
+            <h4>USD 2.500 </h4>
+            <button class=”left”>add debt</button>
+        </div>
+        <div class="package-container">
+            <!--3rd package content -->
+            <img src="images/shibuya.jpg" alt="Shibuya">
+            <h3>Discover Japan | 10 Days</h3>
+            <p>Experience being a criminal</p>
+            <h4>USD 9.000 </h4>
+            <button class=”left”>add debt</button>
+        </div>
+    </div>
+    <table>
+        <tr>
+
+        </tr>
+    </table>
+
+
+
+    <h1 class="title">Tours Detail</h1>
+    <div class="table">
+        <table>
+            <tr>
+                <!-- Table heading -->
+                <th>Package</th>
+                <th>Description</th>
+                <th>Places</th>
+                <th>ur debt</th>
+                <th>Booking</th>
+
+            </tr>
+            <tr>
+                <!-- Table data 1 -->
+                <td><img src="images/anime.jpg" alt=""></td>
+                <td>Anime World Tours| 7 Days</td>
+                <td>Tokyo, Nagano, Nakasendo Takayama, Shirakawago,
+                    Kanazawa</td>
+                <td>USD 3,500</td>
+                <td><button onclick="goToBooking()" type="button">Book now</button></td>
+            </tr>
+            <tr>
+                <!-- Table data 2 -->
+                <td><img src="images/sakura.jpeg" alt=""></td>
+                <td>Sakura season tour| 7 Days</td>
+                <td>Travel japan on sakura season</td>
+                <td>USD 3,500</td>
+                <td><button onclick="goToBooking()" type="button">Book now</button></td>
+            </tr>
+            <tr>
+                <!-- Table data 3 -->
+                <td><img src="images/shibuya.jpg" alt=""></td>
+                <td>Discover japan|10 Days</td>
+                <td>Go trough the entirety of japan</td>
+                <td>USD 9,000</td>
+                <td><button onclick="goToBooking()" type="button">Book now</button></td>
+            </tr>
+            <tr>
+                <!-- Table data 4 -->
+                <td><img src="images/kanazawa.jpg" alt=""></td>
+                <td>Discover kanazawa|10 Days</td>
+                <td>Go to kanazawa</td>
+                <td>USD 2,000</td>
+                <td><button onclick="goToBooking()" type="button">Book now</button></td>
+            </tr>
+            <tr>
+                <!-- Table data 5 -->
+                <td><img src="images/hiroshima.jpg" alt=""></td>
+                <td>Discover hiroshima|10 Days</td>
+                <td>nuclear radiation</td>
+                <td>USD 9,000</td>
+                <td><button onclick="goToBooking()" type="button">Book now</button></td>
+            </tr>
+        </table>
+    </div>
+    <iframe width="1300" height="325" src="https://www.youtube.com/embed/m7htXCumsn0?si=0Yo7zPSfY1xvkgHK"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="1300" height="325" src="https://www.youtube.com/embed/GpkYLIlpGWk?si=PIYtVuoSebqBq7ba"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="1300" height="325" src="https://www.youtube.com/embed/nCbHefA4CR8?si=H6zWZC_7xN-Kuf7t"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <footer>
+        <h4>Migrate illegally</h4>
+        <p>Copyright &copy 2001 Designed by Doortime Academy </p>
+    </footer>
+    <script>
+        document.getElementById("btn1").onclick = function () {
+            var korupsi = document.getElementById("harga1").textContent
+            alert(korupsi)
+        }
+    </script>
+    <script src="script.js"> </script>
+</body>
+
+</html>

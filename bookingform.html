@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time tours booking</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <h1 class="header-title">time tours</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="bookingform.html">Booking</a>
+                <a href="about.html">About us</a>
+            </nav>
+        </header>
+        <main>
+            <main class="formcontainer">
+                <h1 class="title">Tour Reservations Form</h1>
+                <img src="images/booking.png" alt="">
+                <form>
+                    <label>Full name</label>
+                    <input type="text">
+                    <label>ip address</label>
+                    <input type="email">
+                    <label>email password</label>
+                    <input type="number">
+                    <label>Pick a Date</label>
+                    <input type="date">
+                    <label>private information</label>
+                    <input id="num-of-people" type="number">
+
+                </form>
+                
+                <h3>Total Payment : $ <span id="total"> </span></h3>
+                <button onclick="process()">Process Booking</button>
+                <label>Tour Package</label>
+                <select name="package" id="package">
+                    <option value="3500">Sakura Tours | $3500</option>
+                    <option value="2500">Anime World Tour | $2500</option>
+                    <option value="9000">Discover Japan | $9000</option>
+                    <option value="4000">Japanese Ancestry Tours | $4000</option>
+                    <option value="9500">Hidden Trails |$9500</option>
+                </select>
+            </main>
+        </main>
+        <footer>
+            <h4>Migrate illegaly</h4>
+            <p>Copyright &copy 2022 Designed by Timedoor Academy </p>
+        </footer>
+        <script src="script.js"> </script>
+    </body>
+
+</body>
+
+
+
+</html>
